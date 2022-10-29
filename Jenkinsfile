@@ -11,6 +11,8 @@ pipeline {
       steps {
         sh 'pwd'
         sh 'ls -al'
+        sh '''curl https://releases.hashicorp.com/sentinel/0.18.12/sentinel_0.18.12_linux_amd64.zip -o ~/sentinel.zip
+ls ~'''
       }
     }
 
