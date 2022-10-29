@@ -10,6 +10,7 @@ pipeline {
     stage('Sentinel Test') {
       steps {
         sh 'pwd'
+        sh 'ls -al'
       }
     }
 
