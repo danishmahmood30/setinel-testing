@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('Sentinel Test') {
+      steps {
+        sh 'pwd'
+      }
+    }
+
   }
 }
