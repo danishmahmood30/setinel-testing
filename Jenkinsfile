@@ -11,9 +11,10 @@ pipeline {
       steps {
         sh 'pwd'
         sh 'ls -al'
-        sh '''curl https://releases.hashicorp.com/sentinel/0.18.12/sentinel_0.18.12_linux_amd64.zip -o $HOME/sentinel.zip
+        sh '''curl https://releases.hashicorp.com/sentinel/0.18.12/sentinel_0.18.12_linux_amd64.zip -o $HOME/sentinel2.zip
 
-ls $HOME'''
+echo $HOME
+env'''
       }
     }
 
