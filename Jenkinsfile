@@ -25,6 +25,7 @@ unzip ~/sentinel.zip'''
         sh 'curl https://releases.hashicorp.com/terraform/1.3.5/terraform_1.3.5_linux_amd64.zip -o terraform.zip'
         sh 'unzip terraform.zip'
         sh 'ls -l'
+        sh 'terraform plan'
       }
     }
 
