@@ -16,6 +16,7 @@ pipeline {
 sudo apt install unzip
 
 unzip ~/sentinel.zip'''
+        sh 'ls -l'
       }
     }
 
